@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Android">
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="platformVersion" value="11"></parameter>
+		<parameter name="UDID" value="fb7713bd98fb"></parameter>
+		<parameter name="deviceName" value="Mi A3"></parameter>
+		<classes>
+			<class name="Tests.NotSignedInPage" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
